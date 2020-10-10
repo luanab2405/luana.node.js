@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 de out. de 2020, 10:42:37
+    Author     : ADM
+*/
+
+#img1{
+    width: 100%;
+    height: 230px;
+}
+
+
+footer {             
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #088A29;
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+    min-height: 100%;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+p{
+    text-indent: 5%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#div1{
+    padding: 10%;
+}
+
+#myHeader{
+    overflow: hidden;
+}
+
+#img2{
+    width: 70%;
+    height: 50%;
+}
+
+h1{
+    color: #003300;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#li1{
+    float: right;
+}
+
+section{
+    background-color: #ccffcc;
+}
+
+b{
+    color: #003300;
+}
+
+
+data-anime{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0,0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
